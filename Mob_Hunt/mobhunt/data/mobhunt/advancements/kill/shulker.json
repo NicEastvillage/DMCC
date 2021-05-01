@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing shulkers",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:shulker"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/shulker"
+    }
+}

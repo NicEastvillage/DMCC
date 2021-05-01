@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing zombified_piglins",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/zombified_piglin"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing llamas",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/llama"
+    }
+}

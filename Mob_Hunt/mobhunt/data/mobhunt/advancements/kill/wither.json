@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing withers",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/wither"
+    }
+}

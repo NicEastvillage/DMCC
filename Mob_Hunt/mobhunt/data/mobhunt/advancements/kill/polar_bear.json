@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing polar_bears",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:polar_bear"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/polar_bear"
+    }
+}

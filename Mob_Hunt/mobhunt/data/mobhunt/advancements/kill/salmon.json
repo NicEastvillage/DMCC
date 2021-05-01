@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing salmons",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:salmon"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/salmon"
+    }
+}

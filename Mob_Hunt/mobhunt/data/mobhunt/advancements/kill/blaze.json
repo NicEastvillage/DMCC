@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing blazes",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/blaze"
+    }
+}

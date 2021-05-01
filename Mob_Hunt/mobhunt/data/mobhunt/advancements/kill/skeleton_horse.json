@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing skeleton_horses",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton_horse"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/skeleton_horse"
+    }
+}

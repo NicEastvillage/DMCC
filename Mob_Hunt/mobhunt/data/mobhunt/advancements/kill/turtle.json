@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing turtles",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:turtle"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/turtle"
+    }
+}

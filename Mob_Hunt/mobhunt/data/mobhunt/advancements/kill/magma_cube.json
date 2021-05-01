@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing magma_cubes",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:magma_cube"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/magma_cube"
+    }
+}
