@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing zombie_horses",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_horse"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/zombie_horse"
+    }
+}

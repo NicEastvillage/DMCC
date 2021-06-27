@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing pillagers",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/pillager"
+    }
+}

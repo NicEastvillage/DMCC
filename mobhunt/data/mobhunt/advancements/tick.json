@@ -1,0 +1,11 @@
+{
+    "__comment": "Runs the tick function constantly",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick",
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:tick"
+    }
+}

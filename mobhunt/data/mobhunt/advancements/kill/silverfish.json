@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing silverfishs",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:silverfish"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/silverfish"
+    }
+}

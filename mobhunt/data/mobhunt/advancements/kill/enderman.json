@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing endermans",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/enderman"
+    }
+}

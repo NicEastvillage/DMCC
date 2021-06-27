@@ -1,9 +1,0 @@
-execute if entity @s[scores={stage=0}] run tp @s -3 101 -0 75.0 0.0
-execute if entity @s[scores={stage=1}] run tp @s -20 103 30 -80 0
-execute if entity @s[scores={stage=2}] run tp @s -18 104 52 90.0 0.0
-execute if entity @s[scores={stage=3}] run tp @s -43 109 38 -100.0 0.0
-execute if entity @s[scores={stage=4}] run tp @s -59.0 106 10 180.0 0.0
-execute if entity @s[scores={stage=5}] run tp @s -60 120 -27 180.0 0.0
-execute if entity @s[scores={stage=6}] run tp @s -41.0 128 -36.0 25.0 0.0
-execute if entity @s[scores={stage=7}] run tp @s -42 130 12.0 -60 0.0
-execute if entity @s[scores={stage=8}] run tp @s -8.5 130 25.0 -90 0.0

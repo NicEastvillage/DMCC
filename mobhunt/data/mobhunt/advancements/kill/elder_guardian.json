@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing elder_guardians",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/elder_guardian"
+    }
+}

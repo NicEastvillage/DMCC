@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing horses",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:horse"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/horse"
+    }
+}

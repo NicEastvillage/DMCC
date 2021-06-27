@@ -1,0 +1,16 @@
+{
+    "__comment": "Triggered when killing ravagers",
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobhunt:on_kill/ravager"
+    }
+}
